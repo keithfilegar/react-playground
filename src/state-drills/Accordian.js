@@ -1,9 +1,9 @@
 import React from 'react'
 
 class Accordian extends React.Component {
-    static defaultProps ={
-        sections: []
-    }
+    // static defaultProps ={
+    //     sections: []
+    // }
     state ={
         buttonIndex: null
     }

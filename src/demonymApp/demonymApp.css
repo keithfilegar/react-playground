@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+.demonym_app {
+    text-align: center;
+    margin-top: 200px;
+    border: solid black 1px;
+
+}
