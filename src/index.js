@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom"
-import App from './paltrows-power-toes/App';
 import './index.css';
+import AppLang from './lang-context/AppLang';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>,
-    document.getElementById('root')
+  <AppLang />,
+  document.getElementById('root')
 );
